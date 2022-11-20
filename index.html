@@ -203,12 +203,12 @@
           </div>
           <div class="box-button gap-[4px] pt-[32.5px]">
             <button
-              class="py-[8px] px-[20px] text-[#E91E63] rounded-[39px] hover:border-[2px] hover:border-solid hover:border-[#E91E63]"
+              class="py-[8px] px-[20px] text-[#E91E63] rounded-[39px] hover:bg-[#E91E63]/20 hover:border-[2px] hover:border-solid hover:border-[#E91E63]"
             >
               MORE INFO
             </button>
             <button
-              class="py-[8px] px-[20px] text-[#ff9800] rounded-[39px] border-[2px] border-solid border-[#FF9800]"
+              class="py-[8px] px-[20px] text-[#ff9800] rounded-[39px] hover:bg-[#ff9800]/20 border-[2px] border-solid border-[#FF9800]"
             >
               JOIN NOW!
             </button>
@@ -438,20 +438,75 @@
     </section>
     <section id="blog">
       <div class="container mt-[160px]">
-        <div class="box-title text-center">
+        <div class="box-title text-center mb-[30px]">
           <h1>Blog and News</h1>
           <img
             src="assets/images/Active Indicator.png"
             alt=""
             class="mx-auto pb-[40px]"
           />
-          <h4>
+          <h4 class="pb-[10px]">
             Vestibulum sit amet tortor sit amet libero lobortis semper at et
             odio.
           </h4>
         </div>
-        <div class="image">
-          <img src="assets/images/Group 51.png" alt="" />
+        <div
+          class="card flex flex-wrap lg:flex-nowrap justify-center gap-[50px] pt-[50px]"
+        >
+          <div
+            class="box-title flex flex-col justify-center shadow-2xl lg:w-[400px] rounded-2xl"
+          >
+            <img
+              src="assets/images/arlington-research-kN_kViDchA0-unsplash.jpg"
+              alt=""
+              class="w-[370px] h-[200px] rounded-[25px] mx-auto mt-[-60px] object-cover shadow-2xl"
+            />
+            <span class="text-[grey] pl-[15px] pt-[15px]">HEADLINE </span>
+            <h4 class="pl-[15px]"><b>Set vitae viverra justo.</b></h4>
+            <a href="" class="text-[#E91E63] pl-[15px] pb-0">Read more</a>
+          </div>
+          <div class="flex flex-col gap-[30px]">
+            <div
+              class="box-title flex justify-center shadow-2xl rounded-2xl lg:w-[500px] py-5"
+            >
+              <div>
+                <img
+                  src="assets/images/pexels-pixabay-87452.jpg"
+                  alt=""
+                  class="w-[115px] h-[100px] rounded-lg mx-auto object-cover shadow-2xl ml-[-15px]"
+                />
+              </div>
+              <div>
+                <span class="text-[grey] py-[30px] pl-[15px]">NEWS</span>
+                <h5 class="pl-[15px]">
+                  Vestibulum sit amet tortor sit amet libero lobortis
+                </h5>
+                <a href="" class="text-[#E91E63] pl-[15px] pt-[20px] pb-[15px]"
+                  >Read more</a
+                >
+              </div>
+            </div>
+            <div
+              class="box-title flex justify-center shadow-2xl rounded-2xl lg:w-[500px] py-5"
+            >
+              <div>
+                <img
+                  src="assets/images/pexels-pixabay-33101.jpg"
+                  alt=""
+                  class="w-[115px] h-[100px] rounded-lg mx-auto object-cover shadow-2xl ml-[-15px]"
+                />
+              </div>
+              <div>
+                <span class="text-[grey] py-[30px] pl-[15px]">NEWS</span>
+                <h5 class="pl-[15px]">
+                  Vestibulum sit amet tortor sit amet libero lobortis
+                </h5>
+                <a href="" class="text-[#E91E63] pl-[15px] pt-[20px] pb-[15px]"
+                  >Read more</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -470,43 +525,53 @@
       </div>
     </section>
     <section id="footer">
-      <div class="container mt-[160px] flex justify-between">
+      <div class="container mt-[160px] flex justify-between flex-wrap">
         <div class="logo">
           <img src="assets/images/logo.png" alt="" />
-          <h6 class="w-[285px]">
+          <h6 class="w-[285px] mt-[23px] mb-[37px]">
             Nam posuere accumsan porta. Integer id orci sed ante tincidunt
             tincidunt sit amet sed libero.
           </h6>
           <h6>© Skyrev Theme 2021</h6>
         </div>
         <div class="company">
-          <p>COMPANY</p>
+          <p class="text-[#E91E63] text-[18px] font-[700] mb-[22px]">COMPANY</p>
           <ul>
-            <li>Donec dignissim</li>
-            <li>Curabitur egestas</li>
-            <li>Nam posuere</li>
-            <li>Aenean Facilisis</li>
+            <li class="font-[400] text-[16px] mb-[22px]">Donec dignissim</li>
+            <li class="font-[400] text-[16px] mb-[22px]">Curabitur egestas</li>
+            <li class="font-[400] text-[16px] mb-[22px]">Nam posuere</li>
+            <li class="font-[400] text-[16px] mb-[22px]">Aenean Facilisis</li>
           </ul>
         </div>
         <div class="services">
-          <p>SERVICES</p>
+          <p class="text-[#E91E63] text-[18px] font-[700] mb-[22px]">
+            SERVICES
+          </p>
           <ul>
-            <li>Cras convallis</li>
-            <li>Vestibulum faucibus</li>
-            <li>Quisque lacinia purus</li>
-            <li>Aliquam nec ex</li>
+            <li class="font-[400] text-[16px] mb-[22px]">Cras convallis</li>
+            <li class="font-[400] text-[16px] mb-[22px]">
+              Vestibulum faucibus
+            </li>
+            <li class="font-[400] text-[16px] mb-[22px]">
+              Quisque lacinia purus
+            </li>
+            <li class="font-[400] text-[16px] mb-[22px]">Aliquam nec ex</li>
           </ul>
         </div>
         <div class="resources">
-          <p>RESOURCES</p>
+          <p class="text-[#E91E63] text-[18px] font-[700] mb-[22px]">
+            RESOURCES
+          </p>
           <ul>
-            <li>Suspendisse porttitor</li>
-            <li>Nam posuere</li>
-            <li>Curabitur egestas</li>
+            <li class="font-[400] text-[16px] mb-[22px]">
+              Suspendisse porttitor
+            </li>
+            <li class="font-[400] text-[16px] mb-[22px]">Nam posuere</li>
+            <li class="font-[400] text-[16px] mb-[22px]">Curabitur egestas</li>
           </ul>
         </div>
         <div class="sosial">
-          <div class="flex">
+          <div class="flex mt-[30px] mb-[38.5px] gap-[18px]">
             <img src="assets/images/Group 9.png" alt="" />
             <img src="assets/images/Group 9 Copy.png" alt="" />
             <img src="assets/images/Group 9 Copy 2.png" alt="" />
